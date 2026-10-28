@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1092 372" width="1092" height="372" role="img" aria-label="neofetch for takahashihanzo">
+<defs><style><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes scan{0%{transform:translateY(-40px)}100%{transform:translateY(372px)}}
+.ln{opacity:0;animation:fadeIn .25s ease forwards}
+.cur{animation:blink 1s step-end infinite}
+.scan{animation:scan 5s linear infinite}
+]]></style>
+<linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#00ff41;#00c853;#00ff41" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#00c853;#00ff41;#00c853" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="sc" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00ff41" stop-opacity="0"/><stop offset="100%" stop-color="#00ff41" stop-opacity=".12"/></linearGradient>
+<pattern id="crt" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00ff41" opacity=".05"/></pattern>
+<filter id="gl"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cp"><rect x="1" y="1" width="1090" height="370" rx="14"/></clipPath>
+</defs>
+<rect x="1" y="1" width="1090" height="370" rx="14" fill="#030603" stroke="url(#tg)" stroke-width="1.5"/>
+<rect x="1" y="1" width="1090" height="30" rx="14" fill="#0d1f0f"/><rect x="1" y="16" width="1090" height="15" fill="#0d1f0f"/>
+<circle cx="22" cy="16" r="5" fill="#ff5f57"/><circle cx="40" cy="16" r="5" fill="#febc2e"/><circle cx="58" cy="16" r="5" fill="#28c840"/>
+<text x="546.0" y="20" text-anchor="middle" font-size="12" fill="#8b949e">takahashihanzo@github: ~</text>
+<text x="22" y="56" font-size="14"><tspan fill="#00ff41" font-weight="bold">root@hanzo</tspan><tspan fill="#8b949e">:~# </tspan><tspan fill="#e6edf3">neofetch</tspan></text>
+<text x="60" y="84" font-size="15" fill="#00ff41" filter="url(#gl)" xml:space="preserve"><tspan x="60" dy="0" class="ln" style="animation-delay:0.30s">     ______</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:0.42s">  .-"      "-.</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:0.54s"> /            \</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:0.66s">|              |</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:0.78s">|,  .-.  .-.  ,|</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:0.90s">| )(__/  \__)( |</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:1.02s">|/     /\     \|</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:1.14s">(_     ^^     _)</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:1.26s"> \__|IIIIII|__/</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:1.38s">  | \IIIIII/ |</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:1.50s">  \          /</tspan><tspan x="60" dy="19" class="ln" style="animation-delay:1.62s">   `--------`</tspan></text>
+<text class="ln" x="360" y="82" font-size="15" font-weight="bold" style="animation-delay:0.40s"><tspan fill="#00ff41">takahashihanzo</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#00ff41">github</tspan></text>
+<text class="ln" x="360" y="103" font-size="15" fill="#14501f" style="animation-delay:0.62s">----------------------</text>
+<text class="ln" x="360" y="124" font-size="15" style="animation-delay:0.84s"><tspan fill="#00ff41" font-weight="bold">OS</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">GitHub (stealth edition)</tspan></text>
+<text class="ln" x="360" y="145" font-size="15" style="animation-delay:1.06s"><tspan fill="#00ff41" font-weight="bold">Uptime</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">just booted</tspan></text>
+<text class="ln" x="360" y="166" font-size="15" style="animation-delay:1.28s"><tspan fill="#00ff41" font-weight="bold">Repos</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">0</tspan></text>
+<text class="ln" x="360" y="187" font-size="15" style="animation-delay:1.50s"><tspan fill="#00ff41" font-weight="bold">Stars</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">0</tspan></text>
+<text class="ln" x="360" y="208" font-size="15" style="animation-delay:1.72s"><tspan fill="#00ff41" font-weight="bold">Followers</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">0</tspan></text>
+<text class="ln" x="360" y="229" font-size="15" style="animation-delay:1.94s"><tspan fill="#00ff41" font-weight="bold">Commits</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">0 this year</tspan></text>
+<text class="ln" x="360" y="250" font-size="15" style="animation-delay:2.16s"><tspan fill="#00ff41" font-weight="bold">Languages</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">none yet</tspan></text>
+<text class="ln" x="360" y="271" font-size="15" style="animation-delay:2.38s"><tspan fill="#00ff41" font-weight="bold">Theme</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">Matrix Green [dark]</tspan></text>
+<text class="ln" x="360" y="292" font-size="15" style="animation-delay:2.60s"><tspan fill="#00ff41" font-weight="bold">Status</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">learning, building, lurking</tspan></text>
+<g class="ln" style="animation-delay:3.2s"><rect x="360" y="319" width="26" height="14" fill="#00ff41"/><rect x="390" y="319" width="26" height="14" fill="#00c853"/><rect x="420" y="319" width="26" height="14" fill="#00a843"/><rect x="450" y="319" width="26" height="14" fill="#fde047"/><rect x="480" y="319" width="26" height="14" fill="#22d3ee"/><rect x="510" y="319" width="26" height="14" fill="#ff2b2b"/><rect x="540" y="319" width="26" height="14" fill="#e6edf3"/><rect x="570" y="319" width="26" height="14" fill="#14501f"/></g>
+<text x="22" y="356" font-size="14"><tspan fill="#00ff41" font-weight="bold">root@hanzo</tspan><tspan fill="#8b949e">:~# </tspan></text>
+<rect class="cur" x="150" y="343" width="9" height="16" fill="#00ff41"/>
+<g clip-path="url(#cp)"><rect class="scan" x="0" y="0" width="1092" height="40" fill="url(#sc)"/><rect width="1092" height="372" fill="url(#crt)"/></g>
+</svg>

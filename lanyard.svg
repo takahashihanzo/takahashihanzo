@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 660" width="420" height="660" role="img" aria-label="Takahashi Hanzo ID card lanyard">
+<title>Takahashi Hanzo — swinging ID badge</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes settle{0%{transform:rotate(0deg) translateY(-660px)}18%{transform:rotate(0deg) translateY(0)}30%{transform:rotate(13deg)}46%{transform:rotate(-9deg)}62%{transform:rotate(6deg)}78%{transform:rotate(-3.5deg)}92%{transform:rotate(1.5deg)}100%{transform:rotate(0deg)}}
+@keyframes sway{0%,100%{transform:rotate(-3.2deg)}50%{transform:rotate(3.2deg)}}
+@keyframes cardWobble{0%,100%{transform:rotate(1.6deg)}50%{transform:rotate(-1.6deg)}}
+@keyframes shine{0%{transform:translateX(-340px) skewX(-18deg)}55%,100%{transform:translateX(420px) skewX(-18deg)}}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
+@keyframes heartBeat{0%,100%{transform:scale(1)}12%{transform:scale(1.25)}24%{transform:scale(1)}36%{transform:scale(1.15)}48%{transform:scale(1)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.settle{transform-origin:210px 6px;animation:settle 3.4s cubic-bezier(.34,1.1,.5,1) forwards}
+.sway{transform-origin:210px 6px;animation:sway 4.2s ease-in-out 3.4s infinite}
+.wob{transform-origin:210px 300px;animation:cardWobble 4.2s ease-in-out 3.4s infinite}
+.shine{animation:shine 4.5s ease-in-out 3.6s infinite}
+.tw{transform-box:fill-box;transform-origin:center;animation:twinkle 2.8s ease-in-out infinite}
+.hb{transform-box:fill-box;transform-origin:center;animation:heartBeat 2.4s ease-in-out infinite}
+]]></style>
+<linearGradient id="strapg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#0a8f3c"/><stop offset="50%" stop-color="#00ff41"/><stop offset="100%" stop-color="#0a8f3c"/>
+</linearGradient>
+<linearGradient id="cardg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0a120a"/><stop offset="100%" stop-color="#060c06"/>
+</linearGradient>
+<linearGradient id="cardborder" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%"><animate attributeName="stop-color" values="#00ff41;#00c853;#00a843;#00ff41" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#00a843;#00ff41;#00c853;#00a843" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#c8ccd6"/><stop offset="45%" stop-color="#8a90a0"/><stop offset="55%" stop-color="#6a7080"/><stop offset="100%" stop-color="#9aa0b0"/>
+</linearGradient>
+<linearGradient id="shineg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".14"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="nameg2" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#00ff41;#00c853;#00ff41" dur="5s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#00c853;#00ff41;#00c853" dur="5s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<radialGradient id="lglow"><stop offset="0%" stop-color="#00c853" stop-opacity=".16"/><stop offset="100%" stop-color="#00c853" stop-opacity="0"/></radialGradient>
+<filter id="glow2"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".55"/></filter>
+<clipPath id="cardclip"><rect x="82" y="298" width="256" height="330" rx="20"/></clipPath>
+</defs>
+
+<circle cx="210" cy="440" r="230" fill="url(#lglow)"><animate attributeName="r" values="230;250;230" dur="5s" repeatCount="indefinite"/></circle>
+
+<g class="tw" style="animation-delay:.5s"><path d="M60 200l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#b9fbc0"/></g>
+<g class="tw" style="animation-delay:1.6s"><path d="M372 300l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#00ff41"/></g>
+<g class="tw" style="animation-delay:2.7s"><path d="M52 480l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#00c853"/></g>
+<g class="hb" style="animation-delay:1s"><path d="M368 480 c-4-9-17-7-17 3 0 7 10 13 17 18 7-5 17-11 17-18 0-10-13-12-17-3z" fill="#00ff41" opacity=".8" filter="url(#glow2)"/></g>
+
+<!-- pendulum: settle then sway -->
+<g class="settle"><g class="sway">
+
+  <!-- Strap -->
+  <g>
+    <path d="M191 -6 L229 -6 L226 236 L194 236 Z" fill="url(#strapg)"/>
+    <line x1="196" y1="0" x2="198.5" y2="234" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-dasharray="4 3"/>
+    <line x1="224" y1="0" x2="221.5" y2="234" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="0" y="0" font-size="10.5" font-weight="bold" fill="#fff" opacity=".92" letter-spacing="2" transform="translate(214,18) rotate(90)">ROOT ▪ HANZO.DEV ▪ ROOT ▪ HANZO.DEV</text>
+  </g>
+
+  <!-- Clasp + ring -->
+  <rect x="188" y="232" width="44" height="26" rx="6" fill="url(#metal)" stroke="#4a4f5c" stroke-width="1"/>
+  <rect x="199" y="238" width="22" height="7" rx="3.5" fill="#3c414e"/>
+  <circle cx="210" cy="272" r="14" fill="none" stroke="url(#metal)" stroke-width="5.5"/>
+
+  <!-- Card (secondary wobble) -->
+  <g class="wob">
+    <rect x="82" y="298" width="256" height="330" rx="20" fill="url(#cardg)" stroke="url(#cardborder)" stroke-width="2" filter="url(#cardShadow)"/>
+    <!-- slot -->
+    <rect x="180" y="310" width="60" height="10" rx="5" fill="#020402" stroke="#14501f" stroke-width="1"/>
+
+    <g clip-path="url(#cardclip)">
+      <!-- header band -->
+      <rect x="82" y="298" width="256" height="34" fill="#0c1c0e" opacity=".7"/>
+      <text x="98" y="345" font-size="9" fill="#8b949e" letter-spacing="1.5">ACCESS LEVEL: ROOT</text>
+      <text x="322" y="345" text-anchor="end" font-size="9" fill="#00ff41" letter-spacing="1.5">UID 0</text>
+
+      <!-- avatar -->
+      <circle cx="210" cy="412" r="59" fill="none" stroke="url(#cardborder)" stroke-width="2.5"/>
+      <defs><radialGradient id="avbg"><stop offset="0%" stop-color="#0b2a10"/><stop offset="100%" stop-color="#050a05"/></radialGradient></defs>
+      <circle cx="210" cy="412" r="54" fill="url(#avbg)"/>
+      <circle cx="210" cy="412" r="44" fill="none" stroke="url(#nameg2)" stroke-width="1" stroke-dasharray="3 5" opacity=".7"/>
+      <g transform="translate(175.6,428)" fill="url(#nameg2)" filter="url(#glow2)"><path transform="translate(0.0,0) scale(0.05200,-0.05200)" d="M640 702 617 567H430L330 0H159L259 567H73L97 702Z"/><path transform="translate(30.7,0) scale(0.05200,-0.05200)" d="M743 702 619 0H448L499 291H233L182 0H11L135 702H306L257 426H523L572 702Z"/></g>
+      <path d="M210 366 L213 375 L222 378 L213 381 L210 390 L207 381 L198 378 L207 375 Z" fill="#00ff41" opacity=".9" transform="translate(0,-4) scale(1)"/>
+
+      <!-- name -->
+      <g transform="translate(103.0,516)" fill="url(#nameg2)" filter="url(#glow2)">
+    <path transform="translate(0.0,0) scale(0.02406,-0.02406)" d="M640 702 617 567H430L330 0H159L259 567H73L97 702Z"/>
+    <path transform="translate(14.2,0) scale(0.02406,-0.02406)" d="M323 566Q382 566 422.0 542.0Q462 518 480 479L494 558H665L566 0H395L410 79Q378 40 329.0 16.0Q280 -8 221 -8Q162 -8 116.5 19.0Q71 46 46.0 95.5Q21 145 21 212Q21 244 27 280Q42 366 86.0 431.0Q130 496 192.0 531.0Q254 566 323 566ZM448 312Q448 361 419.5 389.0Q391 417 347 417Q296 417 254.0 380.5Q212 344 201 280Q198 262 198 247Q198 198 226.5 169.5Q255 141 298 141Q349 141 391.0 178.0Q433 215 445 279Q448 297 448 312Z"/>
+    <path transform="translate(30.6,0) scale(0.02406,-0.02406)" d="M379 278 564 0H352L223 233L182 0H11L142 740H313L241 332L449 558H660Z"/>
+    <path transform="translate(45.4,0) scale(0.02406,-0.02406)" d="M323 566Q382 566 422.0 542.0Q462 518 480 479L494 558H665L566 0H395L410 79Q378 40 329.0 16.0Q280 -8 221 -8Q162 -8 116.5 19.0Q71 46 46.0 95.5Q21 145 21 212Q21 244 27 280Q42 366 86.0 431.0Q130 496 192.0 531.0Q254 566 323 566ZM448 312Q448 361 419.5 389.0Q391 417 347 417Q296 417 254.0 380.5Q212 344 201 280Q198 262 198 247Q198 198 226.5 169.5Q255 141 298 141Q349 141 391.0 178.0Q433 215 445 279Q448 297 448 312Z"/>
+    <path transform="translate(61.8,0) scale(0.02406,-0.02406)" d="M630 386Q630 358 624 326L566 0H396L450 303Q453 320 453 333Q453 375 429.5 398.0Q406 421 364 421Q314 421 280.0 390.0Q246 359 236 303V305L182 0H11L142 740H313L268 484Q301 521 349.0 542.5Q397 564 453 564Q535 564 582.5 517.0Q630 470 630 386Z"/>
+    <path transform="translate(78.0,0) scale(0.02406,-0.02406)" d="M323 566Q382 566 422.0 542.0Q462 518 480 479L494 558H665L566 0H395L410 79Q378 40 329.0 16.0Q280 -8 221 -8Q162 -8 116.5 19.0Q71 46 46.0 95.5Q21 145 21 212Q21 244 27 280Q42 366 86.0 431.0Q130 496 192.0 531.0Q254 566 323 566ZM448 312Q448 361 419.5 389.0Q391 417 347 417Q296 417 254.0 380.5Q212 344 201 280Q198 262 198 247Q198 198 226.5 169.5Q255 141 298 141Q349 141 391.0 178.0Q433 215 445 279Q448 297 448 312Z"/>
+    <path transform="translate(94.3,0) scale(0.02406,-0.02406)" d="M12 158Q12 165 14 183H179Q177 152 197.5 133.5Q218 115 256 115Q288 115 309.0 127.0Q330 139 330 161Q330 182 307.5 194.5Q285 207 233 225Q179 243 142.5 260.5Q106 278 80.0 311.0Q54 344 54 394Q54 443 83.0 482.5Q112 522 164.5 544.0Q217 566 286 566Q355 566 406.0 543.5Q457 521 485.0 481.0Q513 441 513 391L512 376H357Q359 406 339.0 424.0Q319 442 282 442Q253 442 234.5 430.0Q216 418 216 397Q216 375 240.5 360.5Q265 346 317 328Q371 310 406.5 292.5Q442 275 467.5 243.5Q493 212 493 165Q493 111 460.5 72.0Q428 33 371.5 12.5Q315 -8 243 -8Q177 -8 124.5 13.0Q72 34 42.0 71.5Q12 109 12 158Z"/>
+    <path transform="translate(107.7,0) scale(0.02406,-0.02406)" d="M630 386Q630 358 624 326L566 0H396L450 303Q453 320 453 333Q453 375 429.5 398.0Q406 421 364 421Q314 421 280.0 390.0Q246 359 236 303V305L182 0H11L142 740H313L268 484Q301 521 349.0 542.5Q397 564 453 564Q535 564 582.5 517.0Q630 470 630 386Z"/>
+    <path transform="translate(123.9,0) scale(0.02406,-0.02406)" d="M119 692Q119 737 154.0 769.0Q189 801 239 801Q279 801 302.0 779.5Q325 758 325 724Q325 680 290.0 648.0Q255 616 206 616Q166 616 142.5 637.5Q119 659 119 692ZM280 558 182 0H11L109 558Z"/>
+    <path transform="translate(136.6,0) scale(0.02406,-0.02406)" d="M743 702 619 0H448L499 291H233L182 0H11L135 702H306L257 426H523L572 702Z"/>
+    <path transform="translate(154.2,0) scale(0.02406,-0.02406)" d="M323 566Q382 566 422.0 542.0Q462 518 480 479L494 558H665L566 0H395L410 79Q378 40 329.0 16.0Q280 -8 221 -8Q162 -8 116.5 19.0Q71 46 46.0 95.5Q21 145 21 212Q21 244 27 280Q42 366 86.0 431.0Q130 496 192.0 531.0Q254 566 323 566ZM448 312Q448 361 419.5 389.0Q391 417 347 417Q296 417 254.0 380.5Q212 344 201 280Q198 262 198 247Q198 198 226.5 169.5Q255 141 298 141Q349 141 391.0 178.0Q433 215 445 279Q448 297 448 312Z"/>
+    <path transform="translate(170.5,0) scale(0.02406,-0.02406)" d="M630 386Q630 358 624 326L566 0H396L450 303Q453 320 453 333Q453 375 429.5 398.0Q406 421 364 421Q314 421 280.0 390.0Q246 359 236 303V308L182 0H11L109 558H280L267 483Q300 520 347.5 542.0Q395 564 450 564Q534 564 582.0 517.0Q630 470 630 386Z"/>
+    <path transform="translate(186.7,0) scale(0.02406,-0.02406)" d="M196 141H439L413 0H-20L5 136L286 417H56L81 558H506L482 422Z"/>
+    <path transform="translate(198.7,0) scale(0.02406,-0.02406)" d="M21 226Q21 321 66.0 399.0Q111 477 190.0 521.5Q269 566 366 566Q438 566 494.5 536.5Q551 507 582.0 454.0Q613 401 613 331Q613 235 567.5 157.5Q522 80 442.5 36.0Q363 -8 266 -8Q194 -8 138.0 21.0Q82 50 51.5 103.0Q21 156 21 226ZM436 315Q436 365 409.0 392.0Q382 419 341 419Q298 419 265.5 393.5Q233 368 215.0 327.0Q197 286 197 241Q197 192 223.0 165.5Q249 139 290 139Q332 139 365.5 164.5Q399 190 417.5 230.5Q436 271 436 315Z"/>
+      </g>
+      <text x="210" y="540" text-anchor="middle" font-size="11" fill="#00e676" font-weight="bold" letter-spacing="2.5">ROOT USER</text>
+      <text x="210" y="558" text-anchor="middle" font-size="10.5" fill="#8b949e">@takahashihanzo</text>
+
+      <line x1="100" y1="572" x2="320" y2="572" stroke="#123018" stroke-width="1"/>
+
+      <!-- barcode + tag -->
+      <g transform="translate(100,584)"><rect x="0" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="5.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="9.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="12.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="16.0" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/><rect x="21.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="26.0" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/><rect x="31.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="34.5" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/><rect x="41.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="45.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="50.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="54.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="58.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="63.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="67.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="72.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="76.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="81.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="84.0" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="89.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="93.5" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/></g>
+      <text x="320" y="600" text-anchor="end" font-size="8.5" fill="#8b949e">HTML • CSS</text>
+      <text x="320" y="612" text-anchor="end" font-size="8.5" fill="#8b949e">JS • GIT</text>
+
+      <!-- holo shine sweep -->
+      <rect class="shine" x="82" y="288" width="120" height="360" fill="url(#shineg)"/>
+    </g>
+  </g>
+</g></g>
+
+<text x="210" y="652" text-anchor="middle" font-size="10" fill="#8b949e" opacity="0" style="animation:fadeIn .6s ease 3.6s forwards">— access denied… just kidding, I'm an SVG —</text>
+</svg>
