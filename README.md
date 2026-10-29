@@ -22,7 +22,11 @@
 <!--PROJECTS:START-->
 | 🚀 Project | 💻 Tech | ⭐ |
 |:---|:---:|:---:|
-| ✨ *Your repos show up here automatically after the daily update* | — | — |
+| [Takahashi-Hanzo](https://github.com/takahashihanzo/Takahashi-Hanzo) | — | 1 |
+| [NexusPolyglotChain](https://github.com/takahashihanzo/NexusPolyglotChain) | `Solidity` | 0 |
+| [OmniChainDEX](https://github.com/takahashihanzo/OmniChainDEX) | `JavaScript` | 0 |
+| [Web3Portfolio](https://github.com/takahashihanzo/Web3Portfolio) | `JavaScript` | 0 |
+| [srii-nginx-](https://github.com/takahashihanzo/srii-nginx-) | `HCL` | 0 |
 <!--PROJECTS:END-->
 
 <br/>
@@ -39,14 +43,14 @@
 
 ### 🖥️ System Info
 
-<img src="./neofetch.svg?v=3af303c" alt="neofetch" width="100%"/>
+<img src="./neofetch.svg?v=7f6b5bd" alt="neofetch" width="100%"/>
 
 <br/>
 
 ### 📊 GitHub Stats & Graphs
 
-<img src="./stats.svg?v=5c8336d" alt="GitHub Stats" height="185"/>
-<img src="./langs.svg?v=c8b0539" alt="Top Languages" height="185"/>
+<img src="./stats.svg?v=62c0fca" alt="GitHub Stats" height="185"/>
+<img src="./langs.svg?v=2f10860" alt="Top Languages" height="185"/>
 
 <br/><br/>
 
@@ -60,13 +64,13 @@
 <br/><br/>
 
 <!-- 🏆 Trophies (local animated SVG — always loads) -->
-<img src="./trophies.svg?v=6bc976e" alt="Trophies" width="95%"/>
+<img src="./trophies.svg?v=b105964" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
 ### 📜 Activity Log
 
-<img src="./activity.svg?v=b20ebeb" alt="Recent activity" width="100%"/>
+<img src="./activity.svg?v=495ae49" alt="Recent activity" width="100%"/>
 
 <br/><br/>
 

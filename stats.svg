@@ -24,17 +24,17 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <g class="row" style="animation-delay:0.50s">
     <text x="24" y="74" font-size="14">⭐</text>
     <text x="52" y="74" font-size="13.5" fill="#c9d1d9">Total Stars Earned:</text>
-    <text x="316" y="74" text-anchor="end" font-size="14" font-weight="bold" fill="#fde047">0</text>
+    <text x="316" y="74" text-anchor="end" font-size="14" font-weight="bold" fill="#fde047">1</text>
   </g>
   <g class="row" style="animation-delay:0.72s">
     <text x="24" y="105" font-size="14">💻</text>
     <text x="52" y="105" font-size="13.5" fill="#c9d1d9">Commits (this year):</text>
-    <text x="316" y="105" text-anchor="end" font-size="14" font-weight="bold" fill="#7dd3fc">0</text>
+    <text x="316" y="105" text-anchor="end" font-size="14" font-weight="bold" fill="#7dd3fc">11</text>
   </g>
   <g class="row" style="animation-delay:0.94s">
     <text x="24" y="136" font-size="14">📦</text>
     <text x="52" y="136" font-size="13.5" fill="#c9d1d9">Public Repos:</text>
-    <text x="316" y="136" text-anchor="end" font-size="14" font-weight="bold" fill="#4ade80">0</text>
+    <text x="316" y="136" text-anchor="end" font-size="14" font-weight="bold" fill="#4ade80">5</text>
   </g>
   <g class="row" style="animation-delay:1.16s">
     <text x="24" y="167" font-size="14">👥</text>
@@ -49,10 +49,10 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <g transform="translate(418,138)">
   <circle r="52" fill="none" stroke="#0f2412" stroke-width="9"/>
-  <circle r="52" fill="none" stroke="url(#ringg)" stroke-width="9" stroke-linecap="round" stroke-dasharray="6.5 326.7" stroke-dashoffset="6.5" transform="rotate(-90)">
-    <animate attributeName="stroke-dashoffset" from="6.5" to="0" dur="1.6s" begin=".6s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+  <circle r="52" fill="none" stroke="url(#ringg)" stroke-width="9" stroke-linecap="round" stroke-dasharray="98.0 326.7" stroke-dashoffset="98.0" transform="rotate(-90)">
+    <animate attributeName="stroke-dashoffset" from="98.0" to="0" dur="1.6s" begin=".6s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
   </circle>
-  <text class="rk" y="14" text-anchor="middle" font-size="38" font-weight="bold" fill="#00ff41" filter="url(#g)">-</text>
+  <text class="rk" y="14" text-anchor="middle" font-size="38" font-weight="bold" fill="#00ff41" filter="url(#g)">B</text>
   <text y="76" text-anchor="middle" font-size="10.5" fill="#8b949e" opacity="0" style="animation:fadeIn .5s ease 1.8s forwards">RANK</text>
 </g>
 
