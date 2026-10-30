@@ -43,7 +43,7 @@
 
 ### 🖥️ System Info
 
-<img src="./neofetch.svg?v=7f6b5bd" alt="neofetch" width="100%"/>
+<img src="./neofetch.svg?v=94cdb1a" alt="neofetch" width="100%"/>
 
 <br/>
 
@@ -70,7 +70,7 @@
 
 ### 📜 Activity Log
 
-<img src="./activity.svg?v=495ae49" alt="Recent activity" width="100%"/>
+<img src="./activity.svg?v=b1d2132" alt="Recent activity" width="100%"/>
 
 <br/><br/>
 
