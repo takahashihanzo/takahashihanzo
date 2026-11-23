@@ -43,7 +43,7 @@
 
 ### 🖥️ System Info
 
-<img src="./neofetch.svg?v=cff281d" alt="neofetch" width="100%"/>
+<img src="./neofetch.svg?v=a16b6f4" alt="neofetch" width="100%"/>
 
 <br/>
 
